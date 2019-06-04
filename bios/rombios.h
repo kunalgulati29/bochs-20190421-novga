@@ -108,7 +108,7 @@
 #define BX_MAX_ATA_DEVICES      (BX_MAX_ATA_INTERFACES*2)
 
 #define BX_VIRTUAL_PORTS 1 /* normal output to Bochs ports */
-#define BX_DEBUG_SERIAL  0 /* output to COM1 */
+#define BX_DEBUG_SERIAL  1 /* output to COM1 */
 
    /* model byte 0xFC = AT */
 #define SYS_MODEL_ID     0xFC
