@@ -1,0 +1,4 @@
+rm BIOS-bochs-legacy
+make clean
+make
+sudo cp BIOS-bochs-legacy /usr/local/share/bochs/
